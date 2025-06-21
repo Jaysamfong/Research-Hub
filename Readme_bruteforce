@@ -1,0 +1,52 @@
+# Brute-Force Attacks in Web Applications
+
+![Status](https://img.shields.io/badge/Project-BruteForce-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+## 🔍 Overview
+
+This project demonstrates a brute-force attack simulation on a test website using open-source tools such as Hydra, Crunch, CeWL, and SecLists. It accompanies a research paper written as part of a cybersecurity academic program at Purdue Global University.
+
+## 📄 Contents
+
+* [`Brute_Force_Attack_Research_Paper.pdf`](./Brute_Force_Attack_Research_Paper.pdf) – The full academic paper
+* [`screenshots/`](./screenshots/) – (Optional) Screenshots of tools, form reconnaissance, Hydra output
+* [`wordlists/`](./wordlists/) – Sample wordlists (`users.txt`, `pass.txt`)
+
+## 🛠️ Tools Used
+
+* [Kali Linux](https://www.kali.org/)
+* [Hydra](https://tools.kali.org/password-attacks/hydra)
+* [Crunch](https://tools.kali.org/password-attacks/crunch)
+* [CeWL](https://tools.kali.org/password-attacks/cewl)
+* `rockyou.txt`
+* [SecLists](https://github.com/danielmiessler/SecLists)
+
+## ⚙️ Methodology Highlights
+
+* Reconnaissance of login forms
+* Custom wordlist generation
+* Hydra-based brute-force attack simulation
+* Analysis of outcomes and defensive recommendations
+
+## 🔐 Defensive Recommendations
+
+* Multi-factor authentication
+* Account lockout policies
+* Rate limiting & CAPTCHA
+* Web application firewalls (WAF)
+* Strong password policies
+
+## 📚 Citation
+
+Please cite or reference the research paper if reused or adapted in academic or security research.
+
+## 🧾 License
+
+This project is licensed under the [MIT License](./LICENSE). You are free to use, modify, and distribute this project with proper attribution.
+
+## 🧑‍🎓 Author
+
+**Jayson Sam Fong**
+Bachelor of Science in Cybersecurity
+Purdue Global University, 2025
